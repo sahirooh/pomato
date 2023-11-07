@@ -2,7 +2,7 @@ import { BASE_URL } from "../App";
 
 const Hero = ({ info }) => {
   return (
-    <div className="bg-[url('/images/bg.png')] bg-cover h-[calc(100vh-150px)]">
+    <div className="bg-[url('/images/bg.png')] bg-cover min-h-[calc(100vh-150px)]">
       <div className="flex flex-wrap gap-x-5 gap-y-8 justify-center max-w-[1060px] m-auto pt-16">
         {info?.map(({ name, text, image, price }) => (
           <div
